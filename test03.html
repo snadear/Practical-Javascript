@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="js/blockquote.js" ></script>
+	</head>
+	<body>
+		<blockquote cite="http://www/w3/org/DOM/">
+			<p>
+				A platform- and language-nrutral interface that will alow programs and script to dynamically access and update the
+				content,structure and style of documents.
+			</p>
+		</blockquote>
+		<script>
+//			function displayCitation(){
+//				var quotes = document.getElementsByTagName("blockquote");
+//				for(i=0;i<quotes.length;i++){
+//					if (!quotes[i].getAttribute("cite")) continue;
+//					var url=quotes[i].getAttribute("cite");
+//					var quotaChildren = quotes[i].getElementsByTagName("*");
+//					if (quotaChildren.length <1) continue;
+//					var elem = quotaChildren[quotaChildren.length-1];
+//					var links = document.createElement("a");
+//					var links_text = document.createTextNode("source");
+//					links.appendChild(links_text);
+//					links.setAttribute("href",url);
+//					var superscript = document.createElement("sup");
+//					superscript.appendChild(links);
+//					elem.appendChild(superscript);
+//				}
+//			}
+			window.onload=displayCitation()
+		</script>
+	</body>
+</html>
